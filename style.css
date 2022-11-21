@@ -1,0 +1,183 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    
+  } 
+  body{
+    background:orange;
+    width:"100%";
+    padding: 12px;
+    border: 1.2px solid rgb(247, 220, 189);
+    border-radius: 10px;
+    margin: 25px;
+  }
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 5px 10px ;
+  }
+  .Logo{
+    color: rgb(253, 255, 253);
+    cursor: pointer;
+    font-size: 45px;
+    letter-spacing: 2px;
+  }
+  span{
+    color: rgb(10, 10, 10);
+  }
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  nav ul li a{
+    color: azure;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  nav ul li a:hover{
+    color: rgb(32, 32, 30);
+    transition: .4s;
+  }
+  .sect1{
+    padding: 20px 25px;
+    margin: 50px;
+    border: 2px solid rgb(248, 208, 134);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+  h1{
+    color:rgb(252, 252, 252);
+    margin:14px;
+    font-size: 3.5em ;  
+  }
+  .newsletter form{
+    width: 380px;
+    position: relative;
+  }
+  .newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 100px 14px 15px;
+    outline: none;
+    border-radius: 20px;
+    margin-top: 12px;
+  }
+  .newsletter form input:last-child {
+    display: inline-block;
+    position: absolute;
+    padding: 8px 25px;
+    outline: none;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(252, 186, 21);
+    color: rgb(247, 247, 247);
+    box-shadow: 0px 0px 5px rgba(70, 69, 69, 0), 0px 0px 10px #858585;
+    top: 20px;
+    right: 8px;
+  }
+  
+  .sect2{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+    align-items: center;
+  }
+  .sect2 img{
+    height: auto;
+    width: 430px;
+    border: 5px solid rgb(253, 179, 42);
+    border-radius: 12px;
+  }
+  .catchphrase{
+    color: rgb(240, 222, 190);
+    font-size: 13px;
+    margin-bottom: 30px;
+    padding: 4px;
+  }
+  .get{
+    font-size: 25px;
+    line-height: 27px;
+    padding-bottom: 26px;
+  }
+  .text{
+    width: 550px;
+    color: #fcfcfc;
+    letter-spacing: 2px;
+    font-size:18px ;
+    padding: 20px auto;
+  }
+  
+table{
+    display: flex;
+    justify-content: space-around;
+}
+  .box td {
+    height: 50px;
+    width: 310px;
+    padding: 20px 50px;
+    border-radius: 20px;
+    border: #fcfcfc 2px solid;
+    margin: 15px;
+    position: relative;
+    text-align: center;
+  }
+  .box i{
+    font-size: 50px;
+    display: block;
+    color: rgb(7, 7, 7);
+    margin: 25px 0px;
+    text-align: center;
+  }
+  .ind{
+    color: whitesmoke;
+    font-size: 25px;
+    padding-bottom: 15px;
+  }
+  .priorities{
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 26px;
+  }
+
+/* footer */
+  #footer{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  #footer p:nth-child(1){
+  font-size: 22x;
+  font-weight: bold;
+  margin: 20px;
+  color: whitesmoke;
+  }
+  .end {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(15, 15, 15);
+  }
+  .social i{
+    color: black;
+  }
+  .social a{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 14px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  .social a:hover{
+    transform: scale(1.4) ;
+    transition: .3s;
+  }
